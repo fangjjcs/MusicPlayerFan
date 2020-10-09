@@ -1,0 +1,74 @@
+*{
+  font-family: '微軟正黑體'
+}
+
+.body, html {
+  height: 100%;
+  padding: 20px;
+}
+
+.playerBox {
+  margin-top: 50px;
+}
+
+#player:focus {
+  outline: none ;
+}
+.playerBox audio {
+  width: 30%;
+}
+
+.musicBox, .titleBox{
+  /* border: solid red;  */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.musicBox{
+  /* border: solid red;  */
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f1f3f4;
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+}
+
+.text{
+  width: 30%;
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+.musicList {
+  /* border: solid blue; */
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.musicItem {
+  width: 100%;
+  height: 26px;
+  margin-top: 5px;
+  border-radius: 26px;
+  background-color: #f1f3f4;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  text-align: center;
+  line-height: 26px;
+  color: #666;
+  font-size: 9px;
+}
+.musicList .musicItem:hover {
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+.caption{
+  margin-top: 30px;
+  color: #666;
+  font-size: 12px;
+}

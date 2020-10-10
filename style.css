@@ -16,7 +16,6 @@
 
 #player:focus {
   outline: none ;
-  background-color: #444;
 }
 .playerBox audio {
   width: 30%;

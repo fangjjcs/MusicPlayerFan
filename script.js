@@ -17,7 +17,7 @@ var music_list2 = [
 
 var music_list3 = [
   { id:20, text:"Can We Kiss Forever - Kina" },
-  { id:21, text:"that's us - anson seabra" },
+  { id:21, text:"That's Us - anson seabra" },
   { id:22, text:"Never Not - Lauv" },
   { id:23, text:"Hands - New Hope Club ft. Sabrina Carpenter" },
   { id:24, text:"Please Don't Go - Joel Adams" },

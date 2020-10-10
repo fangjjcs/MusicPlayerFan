@@ -5,7 +5,7 @@ var music_list = [
   { id:6, text:"Edge Of Desire - Jonh Mayer" },
   { id:11, text:"大風吹 - 草東沒有派對" },
   { id:14, text:"Tomorrow - Avril Lavigne" },
-  { id:15, text:"Transatlanticism - Death Cab For Cuties" },
+  { id:19, text:"Pacific Coast Highway In The Movies - AWOLNATION" },
   { id:16, text:"Nobody's Fault But My Own - Beck" }
 ]
 

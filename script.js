@@ -3,7 +3,7 @@ var music_list = [
   { id:3, text:"暗流 - 拍謝少年" },
   { id:5, text:"Cardigan - Taylor Swift" },
   { id:6, text:"Edge Of Desire - Jonh Mayer" },
-  { id:11, text:"大風吹 - 草東沒有派對" },
+  { id:28, text:"破吉他 - 張震嶽" },
   { id:14, text:"Tomorrow - Avril Lavigne" },
   { id:19, text:"Pacific Coast Highway In The Movies - AWOLNATION" },
   { id:16, text:"Nobody's Fault But My Own - Beck" }

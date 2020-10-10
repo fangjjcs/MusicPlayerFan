@@ -1,6 +1,8 @@
-*{
-  font-family: '微軟正黑體'
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
 }
+
 
 .body, html {
   height: 100%;
@@ -9,10 +11,12 @@
 
 .playerBox {
   margin-top: 50px;
+  margin-left: 15px;
 }
 
 #player:focus {
   outline: none ;
+  background-color: #444;
 }
 .playerBox audio {
   width: 30%;
@@ -23,23 +27,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 16px;
 }
 
 .musicBox{
-  /* border: solid red;  */
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #f1f3f4;
-  box-shadow: 0px 3px 5px rgba(0,0,0,0.3);
+  padding: 15px;
+  margin-top: 5px;
+}
+
+.titleBox{
+  margin-top: 15px;
 }
 
 .text{
   width: 30%;
   text-align: center;
   margin-top: 20px;
-  color: #666;
+  color: #444;
 }
+
 .musicList {
   /* border: solid blue; */
   width: 30%;
@@ -52,23 +57,38 @@
   width: 100%;
   height: 26px;
   margin-top: 5px;
-  border-radius: 26px;
-  background-color: #f1f3f4;
+  background-color: #444;
   cursor: pointer;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
   text-align: center;
   line-height: 26px;
-  color: #666;
+  color: #fff;
   font-size: 9px;
 }
 .musicList .musicItem:hover {
-  background-color: #fff;
+  background-color: #f1f3f4;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+  color: #444;
 }
 
-.caption{
-  margin-top: 30px;
-  color: #666;
+.loop{
+  width: 80px;
+  height: 30px;
+  border-top: solid #444 1px;
+  border-bottom: solid #444 1px;
+  margin-top: 20px;
   font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  color: #444;
+  margin-left: 15px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.loop:hover{
+  background-color: #444;
+  color: #fff;
 }

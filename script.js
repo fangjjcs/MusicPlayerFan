@@ -76,3 +76,19 @@ var app2 = new Vue({
     }
   }
 })
+
+var flap = false;
+$('.loop').on('click', function(event){
+  var loop = document.getElementById("loop");
+  if(flap==false){
+    loop.style.backgroundColor = "#444";
+    loop.style.color = "#fff";
+    flap = true;
+    document.getElementById("player").loop = flap;
+  }else{
+    loop.style.backgroundColor = "#fff";
+    loop.style.color = "#444";
+    flap = false;
+    document.getElementById("player").loop = flap;
+  }
+});

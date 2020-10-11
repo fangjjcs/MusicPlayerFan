@@ -81,7 +81,7 @@ var flap = false;
 $('.loop').on('click', function(event){
   var loop = document.getElementById("loop");
   if(flap==false){
-    loop.style.backgroundColor = "#444";
+    loop.style.backgroundColor = "#b99362";
     loop.style.color = "#fff";
     flap = true;
     document.getElementById("player").loop = flap;

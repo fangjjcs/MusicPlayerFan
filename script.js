@@ -1,12 +1,11 @@
 var music_list = [
-  { id:2, text:"Don't Cry Don't Cry - 魏如萱" },
-  { id:3, text:"暗流 - 拍謝少年" },
-  { id:5, text:"Cardigan - Taylor Swift" },
-  { id:6, text:"Edge Of Desire - Jonh Mayer" },
-  { id:28, text:"破吉他 - 張震嶽" },
-  { id:14, text:"Tomorrow - Avril Lavigne" },
-  { id:19, text:"Pacific Coast Highway In The Movies - AWOLNATION" },
-  { id:16, text:"Nobody's Fault But My Own - Beck" }
+  { id:30, text:"Life On Earth? - Adam Melchor" },
+  { id:31, text:"Real Estate - Adam Melchor" },
+  { id:13, text:"Don't Invest In Me - Adam Melchor" },
+  { id:8, text:"並不 - 張懸＋芒果跑" },
+  { id:32, text:"Tomboy - HYUKOH" },
+  { id:33, text:"海浪 - Deca Joins" },
+  { id:34, text:"Cavalleria Rusticana - Pietro Mascagni" }
 ]
 
 var music_list2 = [

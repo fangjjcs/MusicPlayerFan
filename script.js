@@ -5,7 +5,8 @@ var music_list = [
   { id:8, text:"並不 - 張懸＋芒果跑" },
   { id:32, text:"Tomboy - HYUKOH" },
   { id:33, text:"海浪 - Deca Joins" },
-  { id:34, text:"Cavalleria Rusticana - Pietro Mascagni" }
+  { id:34, text:"Cavalleria Rusticana - Pietro Mascagni" },
+  { id:35, text:"Bawling - OHHYUK + Primary" }
 ]
 
 var music_list2 = [
